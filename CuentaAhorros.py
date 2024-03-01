@@ -1,14 +1,23 @@
-class CDT:
+class CuentaAhorros:
     # aqui va la clase
     '''------------------
     #Atributos
     ------------------'''
-    valorIntervenido=0
-    interes=0
-    mesApertura=0
+    saldo=0
+    interesMensual=0
+
+    """----------------
+    Metodos
+    -------------------"""
+
+    def retirarSaldo(self):
+        # aqui va la clase
+        retiro=0
+        retiroSalario= self.salario-retiro
+        return "Retiraste: "+self.retirarSaldo
 
     def ConsultarInteres(cantidad):
         #aqui va el codigo
-        interes = cantidad *0.0
+        interes = cantidad *0.6
         return interes
 
